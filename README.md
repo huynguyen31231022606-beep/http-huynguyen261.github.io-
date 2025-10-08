@@ -1,4 +1,4 @@
-readme_formatted = """# **NGUYEN PHAM MINH HUY**
+**NGUYEN PHAM MINH HUY**
 ### Research Analyst / Consultant  
 
 📞 **0394780329** ✉️ **nguyenhuy2601k@gmail.com**  
