@@ -1,12 +1,4 @@
-readme_content = """# Nguyen Pham Minh Huy - CV in Python
-
-This README file contains my full CV structured directly in Python code format.  
-It can be used in Jupyter Notebook or Python scripts for data-driven CV generation, JSON export, or integration with APIs.
-
----
-
-```python
-cv = {
+readme_code = """cv = {
     "personal_information": {
         "name": "Nguyen Pham Minh Huy",
         "title": "Research Analyst / Consultant",
@@ -16,14 +8,12 @@ cv = {
         "linkedin": "https://www.linkedin.com/in/nguyen-pham-minh-huy-64a850281/",
         "dob": "Jan 26th 2005"
     },
-
     "career_goal": (
         "Detail-oriented and motivated Investment Economics professional with proven experience "
         "in data analysis, market research, and consulting through multiple internships in finance, "
         "pharmaceuticals, and real estate, seeking to contribute analytical, research, and problem-solving "
         "skills in a junior-level role within finance, consulting, or research."
     ),
-
     "experience": [
         {
             "company": "Deltamv Knowledge Solutions",
@@ -62,7 +52,6 @@ cv = {
             ]
         }
     ],
-
     "personal_projects": [
         {
             "title": "Research on the Influence of Voting and Review System on User Psychology and Behavior",
@@ -93,7 +82,6 @@ cv = {
             }
         }
     ],
-
     "education": {
         "program": "Investment Economics / International Program",
         "university": "University of Economics Ho Chi Minh City",
@@ -104,20 +92,17 @@ cv = {
             "Excellent ambassador of UEH for FIBBA recognition."
         ]
     },
-
     "skills": [
         "Python", "R", "Excel", "Power Query", "Power BI",
         "Critical thinking", "Communication", "Negotiation",
         "Time management", "Problem-solving",
         "Self-motivation", "Attention to detail", "Presentation", "Storytelling"
     ],
-
     "awards": [
         {"year": 2023, "detail": "Direct acceptance to UEH for high academic performance."},
         {"year": 2022, "detail": "Top 3 excellent student at high school and scholarship recipient."},
         {"year": "2018-2023", "detail": "Local ambassador for solidarity and patriotism program."}
     ],
-
     "certificates": [
         {"year": 2022, "title": "IELTS Academic Certificate"},
         {"year": 2023, "title": "Business Analysis (LinkedIn)"},
@@ -125,7 +110,6 @@ cv = {
         {"year": 2023, "title": "Microsoft Office Specialist (Word, Excel, PowerPoint)"},
         {"year": 2024, "title": "SQL and Data Visualization Certificate"}
     ],
-
     "activities": [
         {
             "period": "2023 - Now",
@@ -139,3 +123,7 @@ cv = {
         }
     ]
 }
+"""
+
+with open("README.md", "w", encoding="utf-8") as f:
+    f.write(readme_code)
